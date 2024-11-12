@@ -11,7 +11,7 @@
         &kp N2 
         &kp N3 
         &kp N4 
-        &kp N5 
+        &kp C_MUTE
         >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
