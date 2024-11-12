@@ -1,0 +1,10 @@
+file_format: "1"
+id: hotdog_pad
+name: Hotdog Pad
+type: shield
+url: https://github.com/onnenon/hotdog_pad
+requires: [seeed_xiao]
+features:
+  - keys
+  - studio
+  - encoder
