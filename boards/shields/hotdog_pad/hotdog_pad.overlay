@@ -15,7 +15,7 @@
         input-gpios
             = <&xiao_d 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&xiao_d 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
-            , <&xiao_d 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
+            , <&xiao_d 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&xiao_d 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             , <&xiao_d 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
@@ -27,6 +27,12 @@
         b-gpios = <&xiao_d 3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         steps = <80>;
         status = "okay";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder>;
+        triggers-per-rotation = <20>;
     };
 
 };
