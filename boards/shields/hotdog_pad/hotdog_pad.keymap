@@ -12,10 +12,13 @@ keymap0:
   keymap {
     compatible = "zmk,keymap";
 
-    default_layer {
+    base {
       bindings = < &kp N9 & kp N8 & kp N7 & kp N6 & kp N5 > ;
-
       sensor - bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
+
+    extra1 { status = "reserved"; };
+
+    extra2 { status = "reserved"; };
   };
 };
