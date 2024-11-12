@@ -1,16 +1,16 @@
-#include <hotdog_pad-layouts.dtsi>
+#include <physical_layouts.dtsi>
 
 / {
-physical_layout0: physical_layout_0 {
-    compatible = "zmk,physical-layout";
-    display-name = "Default";
-
-    keys
-      = <&key_physical_attrs 100  100     0 0 0 0 0>
-      , <&key_physical_attrs 100  100   100 0 0 0 0>
-      , <&key_physical_attrs 100  100   200 0 0 0 0>
-      , <&key_physical_attrs 100  100   300 0 0 0 0>
-      , <&key_physical_attrs 100  100   400 0 0 0 0>
-      ;
-  };
+	physical_layout0: physical_layout_0 {
+		compatible = "zmk,physical-layout";
+		display-name = "Default";
+		
+		keys
+		= <&key_physical_attrs 100  100     0 0 0 0 0>
+		, <&key_physical_attrs 100  100   100 0 0 0 0>
+		, <&key_physical_attrs 100  100   200 0 0 0 0>
+		, <&key_physical_attrs 100  100   300 0 0 0 0>
+		, <&key_physical_attrs 100  100   400 0 0 0 0>
+		;
+	};
 };

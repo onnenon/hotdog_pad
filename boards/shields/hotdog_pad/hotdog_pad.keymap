@@ -2,28 +2,28 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-  keymap {
-    compatible = "zmk,keymap";
-
-    base {
-      display-name = "Base";
-      bindings = < 
-        &kp N1 
-        &kp N2 
-        &kp N3 
-        &kp N4 
-        &kp C_MUTE
-        >;
-
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
-    };
-
-    extra1 {
-      status = "reserved";
-    };
-
-    extra2 {
-      status = "reserved";
-    };
-  };
+	keymap {
+		compatible = "zmk,keymap";
+		
+		base {
+			display-name = "Base";
+			bindings = <
+			&kp N1
+			&kp N2
+			&kp N3
+			&kp N4
+			&kp C_MUTE
+			>;
+			
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+		};
+		
+		extra1 {
+			status = "reserved";
+		};
+		
+		extra2 {
+			status = "reserved";
+		};
+	};
 };
