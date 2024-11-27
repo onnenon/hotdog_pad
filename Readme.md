@@ -11,6 +11,6 @@ Hotdog Pad is a small macro pad with a large PCB area for fun silk screen graphi
  - Xiao Seeed rp2040 microcontroller
  - RGB underglow via the Xiao Seeed onboard NeoPixel
 
-Files for the 3D printed case and rotary encoder knob can be found in the case directory.
+Files for the 3D printed press fit case and rotary encoder knob can be found in the case directory.
 
 PCB and gerber files can be found in the pcb directory
