@@ -1,7 +1,5 @@
 # Hotdog Pad
 
-Hotdog Pad is a small macro pad with a large PCB area for fun silk screen graphics.
-
 ## Configuration
 Configuring the keys of the macropad is simple. To modify the keybindings navigate to [vial.rocks](https://vial.rocks) with your macropad plugged in to your computer.
 
