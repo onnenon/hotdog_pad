@@ -2,6 +2,25 @@
 
 Hotdog Pad is a small macro pad with a large PCB area for fun silk screen graphics.
 
+## Configuration
+Configuring the keys of the macropad is simple. To modify the keybindings navigate to [vial.rocks](https://vial.rocks) with your macropad plugged in to your computer.
+
+_note, your browser must support WebHID to update your keybindings! If you use Chrome you don't have to worry about this._
+
+### The default keymap of the macropad is:
+
+| Key 1 | Key 2 | Key 3 | Key 4 | Encoder/Key 5 |
+|:-----:|:-----:|:-----:|:-----:|:-------------:|
+| `CMD+D` | `CMD+E` | `SHFT+CMD+5` | :hotdog: | Volume Up/Down |
+
+`CMD+D` is toggle mute in Google Hangouts
+
+`CMD+E` is toggle camera in Google Hangouts
+
+`SHFT+CMD+5` opens the screenshot menu on MacOS
+
+
+
 ![render of hotdog with encoder](images/render_encoder.png)
 ![render of hotdog with 5 switches](images/render_5_switch.png)
 
