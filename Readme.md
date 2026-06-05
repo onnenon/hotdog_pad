@@ -9,7 +9,7 @@ _note, your browser must support WebHID to update your keybindings! If you use C
 
 | Key 1 | Key 2 | Key 3 | Key 4 | Encoder/Key 5 |
 |:-----:|:-----:|:-----:|:-----:|:-------------:|
-| `CMD+D` | `CMD+E` | `SHFT+CMD+5` | :hotdog: | Volume Up/Down |
+| `CMD+D` | `CMD+E` | `SHFT+CMD+5` | :hotdog: | Volume Mute/Up/Down |
 
 `CMD+D` is toggle mute in Google Hangouts
 
